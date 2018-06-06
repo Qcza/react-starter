@@ -12,7 +12,7 @@ describe('first test', () => {
   it('should render button', () => {
     const expectedState = { color: 'blueviolet' };
     const mapStateToProps = state => ({
-      state
+      state,
     });
     const ConnectedComponent = connect(mapStateToProps)(App);
     const component = shallowWithStore(<ConnectedComponent />, createMockStore(expectedState));
