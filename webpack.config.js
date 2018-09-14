@@ -34,7 +34,7 @@ module.exports = {
       disable: process.env.NODE_ENV !== 'production',
     }),
     new HtmlWebpackPlugin({
-      title: 'Karolajny',
+      title: 'react-starter',
       template: './src/index.ejs',
     }),
   ],

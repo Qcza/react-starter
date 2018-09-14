@@ -7,7 +7,7 @@ class App extends Component {
     const { ex, doEx } = this.props;
     return (
       <div className="app">
-        <button type="button" onClick={() => doEx('ex')}>doEx</button>
+        <button type="button" onClick={() => doEx(ex === 'on' ? 'off' : 'on')}>doEx</button>
         <em>{ex}</em>
       </div>
     );
