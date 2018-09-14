@@ -1,0 +1,5 @@
+// IDE config
+.idea
+
+// vendors
+./node_modules
